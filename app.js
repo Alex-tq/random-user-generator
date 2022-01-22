@@ -1,8 +1,12 @@
 const app = Vue.createApp({
-  template: "<h1>Hello {{firstName}}</h1>",
   data() {
     return {
       firstName: "John",
+      lastName: "Doe",
+      email: "John@gmail.com",
+      gender: "male",
+      picture:
+        "https://www.newamericanjackets.com/wp-content/uploads/2021/05/Johnny-Cage-Mortal-Kombat-X-Hooded-Vest.jpg",
     };
   },
 });
